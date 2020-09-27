@@ -16,7 +16,7 @@ And much more (as many as I have ideas) :)
 
 ## Setup for developing 
 1. Clone the repo using `git clone https://github.com/emiliosanches/chat-app-web.git`
-2. Clone the server repo using `git clone https://github.com/emiliosanches/chat-app-server.git` and follow its instructions.
+2. Clone the [server repo](https://www.github.com/emiliosanches/chat-app-server/) using `git clone https://github.com/emiliosanches/chat-app-server.git` and follow its instructions.
 3. Add a file named `data.json` in the root directory of the web repo containing a key `server_url` with the server URL as value. In example:
 ```json
 {
