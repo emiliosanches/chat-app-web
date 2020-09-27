@@ -1,3 +1,4 @@
 import SocketIOClient from 'socket.io-client';
+import { server_url } from '../../data.json';
 
-export const socket = () => SocketIOClient('http://25.42.11.72:25565/');
+export const socket = () => SocketIOClient(server_url);

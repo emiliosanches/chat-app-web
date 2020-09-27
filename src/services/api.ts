@@ -1,6 +1,7 @@
 import Axios from 'axios';
+import { server_url } from '../../data.json';
 
 export const api = Axios.create({
-    baseURL: 'http://25.42.11.72:25565/',
+    baseURL: server_url,
     withCredentials: true
 });
