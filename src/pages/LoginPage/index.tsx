@@ -34,7 +34,7 @@ const LoginPage: React.FC = () => {
                 logged: true,
                 user: loginUsername
             });
-            history.push('/');
+            history.push('/chat');
         }).catch(err => {
             if (err.response.status === 401) {
                 alert("Nome de usuário não encontrado!");
