@@ -1,5 +1,14 @@
 import styled from 'styled-components';
 
+export const Container = styled.main`
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
 export const Header = styled.header`
     text-align: center;
     font-family: 'Roboto', sans-serif;

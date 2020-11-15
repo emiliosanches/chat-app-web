@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 import { FaLock, FaUser } from 'react-icons/fa'
 import { api } from '../../services/api';
 
-import { Header, Main, LoginForm, SignupSection } from './styles';
+import { Header, Main, LoginForm, SignupSection, Container } from './styles';
 import { LoggedUserContext } from '../../components/LoggedUserContext';
 
 const LoginPage: React.FC = () => {
@@ -52,7 +52,7 @@ const LoginPage: React.FC = () => {
     }
 
     return (
-        <>
+        <Container>
             <Header>
                 <h1>Faça seu login!</h1>
                 <span>Ou junte-se a nós registrando-se!</span>
@@ -94,7 +94,7 @@ const LoginPage: React.FC = () => {
                     </button>
                 </SignupSection>
             </Main>
-        </>
+        </Container>
     );
 }
 
